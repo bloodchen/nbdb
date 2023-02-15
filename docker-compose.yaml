@@ -1,0 +1,10 @@
+version: "2"
+services:
+  nbdb:
+    image: bloodchen/nbnode:latest
+    container_name: nbdb
+    restart: always
+    volumes:
+      - ./data:/home/node/app/data
+    ports:
+      - 9000:9000
