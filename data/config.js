@@ -32,7 +32,7 @@ const CONFIG = {
       },
     }
   },
-  allowIPs: [], //allowed IP to access this node
+  allowIPs: [], //allowed IP to access this node, pnodes and 127.0.0.1 are all allowed
   pnodes: [],//other nodes
 }
 // ------------------------------------------------------------------------------------------------
