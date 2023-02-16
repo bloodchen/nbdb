@@ -23,6 +23,9 @@ const CONFIG = {
     port: 9000,  //local port for http service
     hideFromList: false //(optional) if add this node to /api/nodes endpoint
   },
+  consensus: {
+    mode: "equal"
+  },
   tld: {
     "pv": {
       "chain": "not",
