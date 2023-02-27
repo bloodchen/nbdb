@@ -16,7 +16,7 @@ const CONFIG = {
     payment: { bsv: "1Bti24c8ZQLYMTaifVkiRwJ1cwT4K6ucJu", ar: "gOyqCZBB-JmX1eDcYrIPPV71msTBBzPKwnEF3oEB-ZQ" }, //address to receive payment
     contact: "", //contact email of the owner,required for ssl certificate
   },
-  chainid: 'main',
+  chainid: 'maxthon',
   adminKey: null, //enable remote admin features, check /api/admin endpoint
   server: {
     publicUrl: "", //public domain name or IP of the node, must set for public node and not set for private node
