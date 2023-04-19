@@ -1,2 +1,2 @@
-docker pull bloodchen/nbnode
+docker pull bloodchen/nbdb
 docker-compose up -d

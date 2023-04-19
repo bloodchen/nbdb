@@ -1,7 +1,7 @@
 version: "2"
 services:
   nbdb:
-    image: bloodchen/nbnode:latest
+    image: bloodchen/nbdb:latest
     container_name: nbdb
     restart: always
     volumes:
