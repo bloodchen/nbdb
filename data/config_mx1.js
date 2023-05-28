@@ -20,7 +20,7 @@ const CONFIG = {
   adminKey: null, //enable remote admin features, check /api/admin endpoint
   server: {
     publicUrl: "", //public domain name or IP of the node, must set for public node and not set for private node
-    port: 9000,  //local port for http service
+    port: 9100,  //local port for http service
     hideFromList: false //(optional) if add this node to /api/nodes endpoint
   },
   consensus: {
