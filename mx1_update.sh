@@ -1,4 +1,3 @@
-cp data/config_mx1.js data/config.js
 docker pull bloodchen/nbdb
 docker container stop nb_mx1
 docker container rm nb_mx1
